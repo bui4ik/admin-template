@@ -2,7 +2,6 @@ import React from 'react';
 import { Form, Input, Button, Checkbox, Typography } from 'antd';
 import { bindActionCreators, Dispatch } from 'redux';
 import { connect } from 'react-redux';
-import { FormProps } from 'antd/es/form';
 import AuthLayout from '../../layouts/AuthLayout';
 import * as selectors from '../../store/auth/selectors';
 import { RootReducer } from '../../interfaces/redux';
