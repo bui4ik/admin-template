@@ -1,7 +1,7 @@
 import { AuthReducer, RootReducer } from '../../interfaces/redux';
 
 export const initialState: AuthReducer = {
-  isAuth: false,
+  isAuth: true,
   authLoading: false,
 };
 
